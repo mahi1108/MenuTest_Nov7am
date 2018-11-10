@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Android"
+        android:icon="@drawable/ic_android_black_24dp"
+        app:showAsAction="always"/>
+    <item android:title="iOS"
+        android:icon="@drawable/ic_apple_logotype"
+        app:showAsAction="always"/>
+    <item android:title="Java">
+        <menu>
+            <item android:title="Core"/>
+            <item android:title="Advance"/>
+            <item android:title="frameworks"/>
+        </menu>
+        </item>
+    <item android:title=".Net"/>
+    <item android:title="PHP"/>
+    <item android:title="Hadoop"/>
+
+
+</menu>
